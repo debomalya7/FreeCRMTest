@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.HomePageTest">
+      <class name="testngpractice.HalfEbay">
         <methods>
-          <include name="verifyUserNameTest"/>
-          <include name="setUp"/>
-          <include name="homePageTitleTest"/>
+          <include name="setup"/>
+          <include name="HalfEbayTest"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      </class> <!-- testngpractice.HalfEbay -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
