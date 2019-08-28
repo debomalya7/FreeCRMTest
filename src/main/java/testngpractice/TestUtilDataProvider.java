@@ -9,7 +9,7 @@ public class TestUtilDataProvider {
 	public static ArrayList<Object[]> getDataFromExel(){
 		ArrayList<Object[]> myData = new ArrayList<Object[]>();
 		try {
-			reader = new Xls_Reader("C:\\Users\\debma\\Desktop\\New Microsoft Excel Worksheet.xlsx");
+			reader = new Xls_Reader("E:\\Projects\\eclipse-workspace\\FreeCRMTest\\src\\main\\java\\com\\crm\\qa\\testdata\\New Microsoft Excel Worksheet.xlsx");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

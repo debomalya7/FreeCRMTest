@@ -3,10 +3,7 @@ package testngpractice;
 class GFG { 
 
 	// Function to insert string 
-	public static String insertString( 
-		String originalString, 
-		String stringToBeInserted, 
-		int index) 
+	public static String insertString( String originalString, String stringToBeInserted, int index) 
 	{ 
 
 		// Create a new string 

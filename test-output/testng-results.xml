@@ -1,149 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="100326" started-at="2019-08-23T19:02:01Z" finished-at="2019-08-23T19:03:42Z">
+  <suite name="Default suite" duration-ms="16857" started-at="2019-08-27T21:50:17 IST" finished-at="2019-08-27T21:50:33 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="100326" started-at="2019-08-23T19:02:01Z" finished-at="2019-08-23T19:03:42Z">
-      <class name="testngpractice.HalfEbay">
-        <test-method status="PASS" signature="setup()[pri:0, instance:testngpractice.HalfEbay@51565ec2]" name="setup" is-config="true" duration-ms="20541" started-at="2019-08-24T00:32:02Z" finished-at="2019-08-24T00:32:23Z">
+    <test name="Default test" duration-ms="16857" started-at="2019-08-27T21:50:17 IST" finished-at="2019-08-27T21:50:33 IST">
+      <class name="testngpractice.NaukriPopUpHandler">
+        <test-method status="PASS" signature="setup()[pri:0, instance:testngpractice.NaukriPopUpHandler@6737fd8f]" name="setup" is-config="true" duration-ms="9881" started-at="2019-08-27T21:50:17 IST" finished-at="2019-08-27T21:50:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="HalfEbayTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testngpractice.HalfEbay@51565ec2]" name="HalfEbayTest" duration-ms="2528" started-at="2019-08-24T00:32:23Z" data-provider="getData" finished-at="2019-08-24T00:32:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ram]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sen]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[ramsen@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[abcd1234]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="PASS" signature="test()[pri:0, instance:testngpractice.NaukriPopUpHandler@6737fd8f]" name="test" duration-ms="6849" started-at="2019-08-27T21:50:27 IST" finished-at="2019-08-27T21:50:33 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HalfEbayTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngpractice.HalfEbay@51565ec2]" name="tearDown" is-config="true" duration-ms="1301" started-at="2019-08-24T00:32:25Z" finished-at="2019-08-24T00:32:26Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngpractice.NaukriPopUpHandler@6737fd8f]" name="tearDown" is-config="true" duration-ms="77" started-at="2019-08-27T21:50:33 IST" finished-at="2019-08-27T21:50:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testngpractice.HalfEbay@51565ec2]" name="setup" is-config="true" duration-ms="20235" started-at="2019-08-24T00:32:26Z" finished-at="2019-08-24T00:32:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="HalfEbayTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testngpractice.HalfEbay@51565ec2]" name="HalfEbayTest" duration-ms="2039" started-at="2019-08-24T00:32:47Z" data-provider="getData" finished-at="2019-08-24T00:32:49Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Laxman]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Saha]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[laxmansaha@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[abcd1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HalfEbayTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngpractice.HalfEbay@51565ec2]" name="tearDown" is-config="true" duration-ms="769" started-at="2019-08-24T00:32:49Z" finished-at="2019-08-24T00:32:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testngpractice.HalfEbay@51565ec2]" name="setup" is-config="true" duration-ms="22678" started-at="2019-08-24T00:32:50Z" finished-at="2019-08-24T00:33:12Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="HalfEbayTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testngpractice.HalfEbay@51565ec2]" name="HalfEbayTest" duration-ms="2599" started-at="2019-08-24T00:33:12Z" data-provider="getData" finished-at="2019-08-24T00:33:15Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Bharat]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Chowdhury]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[bharatchowdhury@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[abcd1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HalfEbayTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngpractice.HalfEbay@51565ec2]" name="tearDown" is-config="true" duration-ms="852" started-at="2019-08-24T00:33:15Z" finished-at="2019-08-24T00:33:16Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:testngpractice.HalfEbay@51565ec2]" name="setup" is-config="true" duration-ms="13515" started-at="2019-08-24T00:33:16Z" finished-at="2019-08-24T00:33:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="HalfEbayTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testngpractice.HalfEbay@51565ec2]" name="HalfEbayTest" duration-ms="11843" started-at="2019-08-24T00:33:29Z" data-provider="getData" finished-at="2019-08-24T00:33:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Nakul]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sharma]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[nakulsharma@gmail.com]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[abcd1234]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HalfEbayTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testngpractice.HalfEbay@51565ec2]" name="tearDown" is-config="true" duration-ms="784" started-at="2019-08-24T00:33:41Z" finished-at="2019-08-24T00:33:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testngpractice.HalfEbay -->
+      </class> <!-- testngpractice.NaukriPopUpHandler -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -1,16 +1,21 @@
 package com.crm.qa.base;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.util.Date;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import com.crm.qa.util.TestUtil;
+import com.google.common.io.Files;
 
 import jdk.internal.dynalink.beans.StaticClass;
 
@@ -48,6 +53,24 @@ public class TestBase {
 		driver.manage().timeouts().implicitlyWait(TestUtil.IMPLICIT_WAIT, TimeUnit.SECONDS);
 		
 		driver.get(prop.getProperty("url"));
+	}
+	
+	public static void captureScreenShot(WebDriver driver, String testMethodName) {
+		try {
+			String currentdate= new Date().toString().replaceAll(":", "_");
+			TakesScreenshot ts =(TakesScreenshot) driver;
+			File src = ts.getScreenshotAs(OutputType.FILE);
+			File dest=new File("E:\\Projects\\eclipse-workspace\\FreeCRMTest\\Screenshot"+testMethodName+":"+currentdate+".png");
+			Files.copy(src, dest);
+			
+			
+			
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+			e.printStackTrace();
+		}
+		
 	}
 	
 	
